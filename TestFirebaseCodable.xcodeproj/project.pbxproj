@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0B057CF72CFFEEB900927C6F /* CodableFirebase in Frameworks */ = {isa = PBXBuildFile; productRef = 0B057CF62CFFEEB900927C6F /* CodableFirebase */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0B057CE42CFFED5600927C6F /* TestFirebaseCodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFirebaseCodable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B057CF72CFFEEB900927C6F /* CodableFirebase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = TestFirebaseCodable;
 			packageProductDependencies = (
+				0B057CF62CFFEEB900927C6F /* CodableFirebase */,
 			);
 			productName = TestFirebaseCodable;
 			productReference = 0B057CE42CFFED5600927C6F /* TestFirebaseCodable.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 0B057CDB2CFFED5600927C6F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0B057CF52CFFEEB900927C6F /* XCRemoteSwiftPackageReference "CodableFirebase" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 0B057CE52CFFED5600927C6F /* Products */;
 			projectDirPath = "";
@@ -324,6 +333,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0B057CF52CFFEEB900927C6F /* XCRemoteSwiftPackageReference "CodableFirebase" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alickbass/CodableFirebase.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0B057CF62CFFEEB900927C6F /* CodableFirebase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0B057CF52CFFEEB900927C6F /* XCRemoteSwiftPackageReference "CodableFirebase" */;
+			productName = CodableFirebase;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0B057CDC2CFFED5600927C6F /* Project object */;
 }

@@ -1,0 +1,15 @@
+{
+  "originHash" : "acfa2c822e639b9c9aedfdbfe30fa8bcc18aac3af5f7371006fc92215f688f8a",
+  "pins" : [
+    {
+      "identity" : "codablefirebase",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/alickbass/CodableFirebase.git",
+      "state" : {
+        "revision" : "a4cda89948db93ec21249a35ecdacab8c489a116",
+        "version" : "0.2.2"
+      }
+    }
+  ],
+  "version" : 3
+}
